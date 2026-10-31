@@ -1,0 +1,12 @@
+:host { display: block; }
+.shell { max-width: 1000px; margin: 0 auto; padding: 2rem 1rem 4rem; }
+.hero { background: linear-gradient(135deg, #172554, #1d4ed8); color: white; padding: 2.5rem; border-radius: 1rem; margin-bottom: 1rem; }
+.hero h1 { margin: .25rem 0 .75rem; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.05; }
+.hero p { color: #dbeafe; } .eyebrow { font-size: .75rem; letter-spacing: .14em; font-weight: 700; }
+.hero code { color: #bfdbfe; } .panel { background: white; border: 1px solid #e2e8f0; border-radius: .75rem; padding: 1.25rem; margin: 1rem 0; box-shadow: 0 4px 16px #0f172a0a; }
+h2 { margin: 0 0 1rem; font-size: 1.2rem; } .muted { color: #64748b; }
+.actions { display: flex; justify-content: space-between; gap: 1rem; align-items: center; margin: 1rem 0; color: #475569; }
+button { border: 1px solid #cbd5e1; background: white; padding: .55rem .8rem; border-radius: .4rem; cursor: pointer; margin-left: .5rem; }
+button:hover:not(:disabled) { border-color: #2563eb; color: #1d4ed8; } button:disabled { cursor: not-allowed; opacity: .5; }
+input, select { border: 1px solid #cbd5e1; border-radius: .35rem; padding: .5rem; background: white; }
+@media (max-width: 600px) { .hero { padding: 1.5rem; } .actions { align-items: flex-start; flex-direction: column; } }
